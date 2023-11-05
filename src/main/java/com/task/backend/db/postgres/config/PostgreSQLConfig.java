@@ -58,7 +58,7 @@ public class PostgreSQLConfig {
 		
 		
 		Map<String,String> props=new HashMap<>();
-		props.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
+		props.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
 		props.put("hibernate.show_sql", "true");
 		props.put("hibernate.hbm2ddl.auto", "update");
 		bean.setJpaPropertyMap(props);
